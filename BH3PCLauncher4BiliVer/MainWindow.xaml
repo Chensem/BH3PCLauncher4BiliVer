@@ -1,0 +1,16 @@
+﻿<Window x:Class="BH3PCLauncher4BiliVer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="244" Width="316"
+        Topmost="True"
+        >
+    <Grid>
+        <TextBox x:Name="c_result" HorizontalAlignment="Left" Height="107" Margin="10,10,0,0" TextWrapping="Wrap" Text="Logcat" VerticalAlignment="Top" Width="290"/>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="177,148,0,0" TextWrapping="Wrap" Text="Alt + Enter 窗口化" VerticalAlignment="Top" Width="117"/>
+        <ComboBox x:Name="c_userSelect" HorizontalAlignment="Left" Height="24" Margin="10,122,0,0" VerticalAlignment="Top" Width="146"/>
+        <Button Content="Click" HorizontalAlignment="Left" Height="50" Margin="10,150,0,0" VerticalAlignment="Top" Width="146" Click="Button_Click"/>
+    </Grid>
+</Window>
